@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm:*)",
+      "Bash(find:*)",
+      "Bash(echo $SHELL)",
+      "Bash(history -c)",
+      "Bash(reset)",
+      "Bash(mkdir:*)",
+      "mcp__salesforce_DX__sf-deploy-metadata"
+    ],
+    "deny": []
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "salesforce DX"
+  ]
+}
